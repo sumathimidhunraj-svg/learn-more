@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Learn More AI Chat</title>
+
+    <link rel="stylesheet" href="chat.css">
+</head>
+
+<body>
+
+    <div class="container">
+<!-- 🎨 Theme Customization -->
+<div class="theme-panel">
+
+    <button id="themeBtn">🎨 Customize</button>
+
+    <div id="themeOptions" class="theme-options">
+
+        <h3>Choose Your Theme 🎨</h3>
+
+        <button class="theme-choice" data-theme="blue">
+            🔵 Blue
+        </button>
+
+        <button class="theme-choice" data-theme="purple">
+            🟣 Purple
+        </button>
+
+        <button class="theme-choice" data-theme="pink">
+            🩷 Pink
+        </button>
+
+        <button class="theme-choice" data-theme="green">
+            🟢 Green
+        </button>
+
+        <button class="theme-choice" data-theme="dark">
+            🌙 Dark
+        </button>
+
+        <button class="theme-choice" data-theme="galaxy">
+            🌌 Galaxy
+        </button>
+
+    </div>
+
+</div>
+        <!-- Header -->
+        <div class="header">
+            <h1>📚 Learn More AI</h1>
+            <p>Your Smart Learning Partner</p>
+        </div>
+
+
+        <!-- Chat Messages -->
+        <div id="chatBox" class="chat-box">
+
+            <div class="ai-message">
+                👋 Hello! I am Learn More AI.<br>
+                Ask me any study question from Class 1 to 12.
+            </div>
+
+        </div>
+
+
+        <!-- Input Area -->
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="question"
+                placeholder="Type your question..."
+                autocomplete="off"
+            >
+
+            <!-- Microphone Button -->
+            <button
+                id="micBtn"
+                type="button"
+                title="Voice Input"
+            >
+                🎤
+            </button>
+
+            <!-- Send Button -->
+            <button
+                id="askBtn"
+                type="button"
+            >
+                Send 🚀
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- JavaScript -->
+    <script src="chat.js"></script>
+
+</body>
+</html>
