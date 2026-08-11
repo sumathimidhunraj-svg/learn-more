@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef5ff;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+
+.header {
+    background: #2563EB;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.chat-box {
+    height: 450px;
+    padding: 20px;
+    overflow-y: auto;
+    background: #f8f9ff;
+}
+
+.ai-message {
+    background: #e5e7eb;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    max-width: 80%;
+}
+
+.user-message {
+    background: #2563EB;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    max-width: 80%;
+}
+
+.input-area {
+    display: flex;
+    padding: 15px;
+    gap: 10px;
+}
+
+.input-area input {
+    flex: 1;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.input-area button {
+    background: #2563EB;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.input-area button:hover {
+    background: #1d4ed8;
+}
+/* =========================
+   🎨 THEME CUSTOMIZATION
+   ========================= */
+
+.theme-panel {
+    text-align: center;
+    margin: 15px 0;
+}
+
+#themeBtn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.theme-options {
+    display: none;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.theme-options.show {
+    display: block;
+}
+
+.theme-options h3 {
+    margin-top: 0;
+}
+
+.theme-choice {
+    padding: 8px 12px;
+    margin: 4px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* 🔵 Blue */
+body.theme-blue {
+    background: #dbeafe;
+}
+
+/* 🟣 Purple */
+body.theme-purple {
+    background: #ede9fe;
+}
+
+/* 🩷 Pink */
+body.theme-pink {
+    background: #fce7f3;
+}
+
+/* 🟢 Green */
+body.theme-green {
+    background: #dcfce7;
+}
+
+/* 🌙 Dark */
+body.theme-dark {
+    background: #111827;
+    color: white;
+}
+
+/* 🌌 Galaxy */
+body.theme-galaxy {
+    background: linear-gradient(
+        135deg,
+        #111827,
+        #312e81,
+        #581c87
+    );
+    color: white;
+}
